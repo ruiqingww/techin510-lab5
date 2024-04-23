@@ -1,6 +1,6 @@
 # Fitness Training Planner
 
-A book searching app that scrapes from http://books.toscrape.com. You can search by title or description, or filter by price or rating.
+A real-time fitness training planner that can take the users request and generate a comprehensive week exercise plan for them.
 
 ## Getting Started
 
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 source venv/bin/activate
 
 # Run the app
-streamlit run app.py
+streamlit run llm_app.py
 ```
 
 
