@@ -1,6 +1,6 @@
-# Fitness Training Planner
+# MusicGen for Running
 
-A real-time fitness training planner that can take the users request and generate a comprehensive week exercise plan for them.
+A real-time running music prompt generator that can take the user’s request and give a professional music description for later music generation. Users can directly download the response's text file.
 
 ## Getting Started
 
@@ -29,7 +29,11 @@ streamlit run llm_app.py
 
 
 ## Lessons Learned
-A
+How to create a streamlit app using Gemini API.
+
+By creating an input prompt template, send all the information to the API, and download the response with one click.
 
 ## Future Improvements
-A
+Add a music API to the web to generate music directly.
+
+Receive real-time data from AWS and input them into the template instead of manually choosing the cadence and heart rate.
